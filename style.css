@@ -14,6 +14,7 @@ body {
   background-color: aliceblue;
   position:sticky;
   top: 0;
+   z-index: 1;
 }
 .navbar__s1__tittle {
   color: #a435f0;
@@ -82,14 +83,14 @@ body {
   height: 50%;
   object-fit: cover;
   background-color: #a435f0;
-  padding: 50px;
+  padding: 30px;
   border: solid black 2px;
   margin: 20px 20px 20px 20px;
    position: relative;
 }
 .sale-image img {
   padding: 5px;
-  border: solid white 2px;
+  border: solid white 4-px;
   border-radius: 20px;
   margin-left: 35%;
 }
