@@ -14,7 +14,7 @@ body {
   background-color: aliceblue;
   position:sticky;
   top: 0;
-   z-index: 1;
+  z-index: 1;
 }
 .navbar__s1__tittle {
   color: #a435f0;
@@ -28,7 +28,6 @@ body {
   display: flex;
   gap: 10px;
   align-items: center;
-  
 }
 .navbar__s2 input {
   border: none;
@@ -71,7 +70,6 @@ body {
   border-bottom: solid black 1px;
   justify-content: space-around;
 }
-
 .categories p {
   background-color: #a435f0;
   color: white;
@@ -86,13 +84,14 @@ body {
   padding: 30px;
   border: solid black 2px;
   margin: 20px 20px 20px 20px;
-   position: relative;
+  position: relative;
 }
 .sale-image img {
   padding: 5px;
-  border: solid white 4-px;
+  border: solid white 4px;
   border-radius: 20px;
   margin-left: 35%;
+  
 }
 .sale-image__1{
   background-color: #d4d2d5;
