@@ -42,6 +42,27 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
+  cursor: pointer;
+}
+/* My learning popup */
+.MyLearning{
+  position: relative;
+}
+.MyLearning__popup{
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border: solid #a435f0 4px;
+  border-radius: 8px;
+  width: 100px;
+  top: 150%;
+  padding: 10px;
+  right: 0;
+  display: none;
+
+}
+.MyLearning:hover .MyLearning__popup{
+  display: block;
+
 }
 .categories {
   display: flex;
@@ -49,6 +70,7 @@ body {
   border-bottom: solid black 1px;
   justify-content: space-around;
 }
+
 .categories p {
   background-color: #a435f0;
   color: white;
@@ -57,18 +79,28 @@ body {
   cursor: pointer;
 }
 .sale-image {
-  height: 100%;
+  height: 50%;
   object-fit: cover;
   background-color: #a435f0;
   padding: 50px;
   border: solid black 2px;
   margin: 20px 20px 20px 20px;
+   position: relative;
 }
 .sale-image img {
   padding: 5px;
   border: solid white 2px;
   border-radius: 20px;
   margin-left: 35%;
+}
+.sale-image__1{
+  background-color: #d4d2d5;
+  width: 25%;
+  padding: 2%;
+  border-radius: 8px;
+  position: absolute;
+  top: 40%;
+  
 }
 .recommended__tittle {
   font-size: 45px;
